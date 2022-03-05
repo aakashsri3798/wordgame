@@ -128,11 +128,11 @@ const words = [
     </div>`
   
     if (over1.childElementCount == 11) {
-      alert.innerText = "Congratulation bc jeet      gya hai tu";
+      alert.innerText = "Congratulation";
       lost.style.display = "flex";
       return;
     } else if (over2.childElementCount == 11) {
-      alert.innerText = "Congratulation bc har   gya hai tu";
+      alert.innerText = "you Loose";
       lost.style.display = "flex";
       return;
     }
